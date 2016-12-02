@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE737E351DEE98CD00BF7487 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E341DEE98CD00BF7487 /* BackView.m */; };
+		FE737E511DEE9D4600BF7487 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE737E371DEE9D4600BF7487 /* Info.plist */; };
+		FE737E521DEE9D4600BF7487 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E391DEE9D4600BF7487 /* MASCompositeConstraint.m */; };
+		FE737E531DEE9D4600BF7487 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E3C1DEE9D4600BF7487 /* MASConstraint.m */; };
+		FE737E541DEE9D4600BF7487 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E3E1DEE9D4600BF7487 /* MASConstraintMaker.m */; };
+		FE737E551DEE9D4600BF7487 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E401DEE9D4600BF7487 /* MASLayoutConstraint.m */; };
+		FE737E561DEE9D4600BF7487 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E441DEE9D4600BF7487 /* MASViewAttribute.m */; };
+		FE737E571DEE9D4600BF7487 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E461DEE9D4600BF7487 /* MASViewConstraint.m */; };
+		FE737E581DEE9D4600BF7487 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E481DEE9D4600BF7487 /* NSArray+MASAdditions.m */; };
+		FE737E591DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E4B1DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FE737E5A1DEE9D4600BF7487 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E4D1DEE9D4600BF7487 /* View+MASAdditions.m */; };
+		FE737E5B1DEE9D4600BF7487 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE737E501DEE9D4600BF7487 /* ViewController+MASAdditions.m */; };
+		FE9010F71DE59C1200927CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9010F61DE59C1200927CD2 /* main.m */; };
+		FE9010FA1DE59C1200927CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9010F91DE59C1200927CD2 /* AppDelegate.m */; };
+		FE9010FD1DE59C1200927CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9010FC1DE59C1200927CD2 /* ViewController.m */; };
+		FE9011021DE59C1200927CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9011011DE59C1200927CD2 /* Assets.xcassets */; };
+		FE9011101DE59C1200927CD2 /* OpenGIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90110F1DE59C1200927CD2 /* OpenGIFTests.m */; };
+		FE90111B1DE59C1300927CD2 /* OpenGIFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90111A1DE59C1300927CD2 /* OpenGIFUITests.m */; };
+		FE90112A1DE5A21000927CD2 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE9011291DE5A21000927CD2 /* splash.gif */; };
+		FE90112E1DE5A35F00927CD2 /* FWGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90112D1DE5A35F00927CD2 /* FWGIFImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE90110C1DE59C1200927CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9010EA1DE59C1200927CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9010F11DE59C1200927CD2;
+			remoteInfo = OpenGIF;
+		};
+		FE9011171DE59C1300927CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9010EA1DE59C1200927CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9010F11DE59C1200927CD2;
+			remoteInfo = OpenGIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE737E331DEE98CD00BF7487 /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		FE737E341DEE98CD00BF7487 /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+		FE737E371DEE9D4600BF7487 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE737E381DEE9D4600BF7487 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FE737E391DEE9D4600BF7487 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FE737E3A1DEE9D4600BF7487 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FE737E3B1DEE9D4600BF7487 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FE737E3C1DEE9D4600BF7487 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FE737E3D1DEE9D4600BF7487 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FE737E3E1DEE9D4600BF7487 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FE737E3F1DEE9D4600BF7487 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FE737E401DEE9D4600BF7487 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FE737E411DEE9D4600BF7487 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FE737E421DEE9D4600BF7487 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FE737E431DEE9D4600BF7487 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FE737E441DEE9D4600BF7487 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FE737E451DEE9D4600BF7487 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FE737E461DEE9D4600BF7487 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FE737E471DEE9D4600BF7487 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FE737E481DEE9D4600BF7487 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FE737E491DEE9D4600BF7487 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FE737E4A1DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FE737E4B1DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FE737E4C1DEE9D4600BF7487 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FE737E4D1DEE9D4600BF7487 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FE737E4E1DEE9D4600BF7487 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FE737E4F1DEE9D4600BF7487 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FE737E501DEE9D4600BF7487 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FE9010F21DE59C1200927CD2 /* OpenGIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9010F61DE59C1200927CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE9010F81DE59C1200927CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE9010F91DE59C1200927CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE9010FB1DE59C1200927CD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE9010FC1DE59C1200927CD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE9011011DE59C1200927CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE9011061DE59C1200927CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE90110B1DE59C1200927CD2 /* OpenGIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE90110F1DE59C1200927CD2 /* OpenGIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGIFTests.m; sourceTree = "<group>"; };
+		FE9011111DE59C1200927CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9011161DE59C1300927CD2 /* OpenGIFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGIFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE90111A1DE59C1300927CD2 /* OpenGIFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGIFUITests.m; sourceTree = "<group>"; };
+		FE90111C1DE59C1300927CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9011291DE5A21000927CD2 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
+		FE90112C1DE5A35F00927CD2 /* FWGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGIFImageView.h; sourceTree = "<group>"; };
+		FE90112D1DE5A35F00927CD2 /* FWGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGIFImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9010EF1DE59C1200927CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011081DE59C1200927CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011131DE59C1300927CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE737E321DEE98B700BF7487 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE737E331DEE98CD00BF7487 /* BackView.h */,
+				FE737E341DEE98CD00BF7487 /* BackView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FE737E361DEE9D4600BF7487 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FE737E371DEE9D4600BF7487 /* Info.plist */,
+				FE737E381DEE9D4600BF7487 /* MASCompositeConstraint.h */,
+				FE737E391DEE9D4600BF7487 /* MASCompositeConstraint.m */,
+				FE737E3A1DEE9D4600BF7487 /* MASConstraint+Private.h */,
+				FE737E3B1DEE9D4600BF7487 /* MASConstraint.h */,
+				FE737E3C1DEE9D4600BF7487 /* MASConstraint.m */,
+				FE737E3D1DEE9D4600BF7487 /* MASConstraintMaker.h */,
+				FE737E3E1DEE9D4600BF7487 /* MASConstraintMaker.m */,
+				FE737E3F1DEE9D4600BF7487 /* MASLayoutConstraint.h */,
+				FE737E401DEE9D4600BF7487 /* MASLayoutConstraint.m */,
+				FE737E411DEE9D4600BF7487 /* Masonry.h */,
+				FE737E421DEE9D4600BF7487 /* MASUtilities.h */,
+				FE737E431DEE9D4600BF7487 /* MASViewAttribute.h */,
+				FE737E441DEE9D4600BF7487 /* MASViewAttribute.m */,
+				FE737E451DEE9D4600BF7487 /* MASViewConstraint.h */,
+				FE737E461DEE9D4600BF7487 /* MASViewConstraint.m */,
+				FE737E471DEE9D4600BF7487 /* NSArray+MASAdditions.h */,
+				FE737E481DEE9D4600BF7487 /* NSArray+MASAdditions.m */,
+				FE737E491DEE9D4600BF7487 /* NSArray+MASShorthandAdditions.h */,
+				FE737E4A1DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FE737E4B1DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FE737E4C1DEE9D4600BF7487 /* View+MASAdditions.h */,
+				FE737E4D1DEE9D4600BF7487 /* View+MASAdditions.m */,
+				FE737E4E1DEE9D4600BF7487 /* View+MASShorthandAdditions.h */,
+				FE737E4F1DEE9D4600BF7487 /* ViewController+MASAdditions.h */,
+				FE737E501DEE9D4600BF7487 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		FE9010E91DE59C1200927CD2 = {
+			isa = PBXGroup;
+			children = (
+				FE9010F41DE59C1200927CD2 /* OpenGIF */,
+				FE90110E1DE59C1200927CD2 /* OpenGIFTests */,
+				FE9011191DE59C1300927CD2 /* OpenGIFUITests */,
+				FE9010F31DE59C1200927CD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9010F31DE59C1200927CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9010F21DE59C1200927CD2 /* OpenGIF.app */,
+				FE90110B1DE59C1200927CD2 /* OpenGIFTests.xctest */,
+				FE9011161DE59C1300927CD2 /* OpenGIFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9010F41DE59C1200927CD2 /* OpenGIF */ = {
+			isa = PBXGroup;
+			children = (
+				FE737E361DEE9D4600BF7487 /* Masonry */,
+				FE737E321DEE98B700BF7487 /* View */,
+				FE90112B1DE5A35F00927CD2 /* class */,
+				FE9011281DE5A1F600927CD2 /* Source */,
+				FE9010F81DE59C1200927CD2 /* AppDelegate.h */,
+				FE9010F91DE59C1200927CD2 /* AppDelegate.m */,
+				FE9010FB1DE59C1200927CD2 /* ViewController.h */,
+				FE9010FC1DE59C1200927CD2 /* ViewController.m */,
+				FE9011011DE59C1200927CD2 /* Assets.xcassets */,
+				FE9011061DE59C1200927CD2 /* Info.plist */,
+				FE9010F51DE59C1200927CD2 /* Supporting Files */,
+			);
+			path = OpenGIF;
+			sourceTree = "<group>";
+		};
+		FE9010F51DE59C1200927CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9010F61DE59C1200927CD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE90110E1DE59C1200927CD2 /* OpenGIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE90110F1DE59C1200927CD2 /* OpenGIFTests.m */,
+				FE9011111DE59C1200927CD2 /* Info.plist */,
+			);
+			path = OpenGIFTests;
+			sourceTree = "<group>";
+		};
+		FE9011191DE59C1300927CD2 /* OpenGIFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE90111A1DE59C1300927CD2 /* OpenGIFUITests.m */,
+				FE90111C1DE59C1300927CD2 /* Info.plist */,
+			);
+			path = OpenGIFUITests;
+			sourceTree = "<group>";
+		};
+		FE9011281DE5A1F600927CD2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FE9011291DE5A21000927CD2 /* splash.gif */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		FE90112B1DE5A35F00927CD2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FE90112C1DE5A35F00927CD2 /* FWGIFImageView.h */,
+				FE90112D1DE5A35F00927CD2 /* FWGIFImageView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9010F11DE59C1200927CD2 /* OpenGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE90111F1DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIF" */;
+			buildPhases = (
+				FE9010EE1DE59C1200927CD2 /* Sources */,
+				FE9010EF1DE59C1200927CD2 /* Frameworks */,
+				FE9010F01DE59C1200927CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGIF;
+			productName = OpenGIF;
+			productReference = FE9010F21DE59C1200927CD2 /* OpenGIF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE90110A1DE59C1200927CD2 /* OpenGIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9011221DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIFTests" */;
+			buildPhases = (
+				FE9011071DE59C1200927CD2 /* Sources */,
+				FE9011081DE59C1200927CD2 /* Frameworks */,
+				FE9011091DE59C1200927CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE90110D1DE59C1200927CD2 /* PBXTargetDependency */,
+			);
+			name = OpenGIFTests;
+			productName = OpenGIFTests;
+			productReference = FE90110B1DE59C1200927CD2 /* OpenGIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE9011151DE59C1300927CD2 /* OpenGIFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9011251DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIFUITests" */;
+			buildPhases = (
+				FE9011121DE59C1300927CD2 /* Sources */,
+				FE9011131DE59C1300927CD2 /* Frameworks */,
+				FE9011141DE59C1300927CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9011181DE59C1300927CD2 /* PBXTargetDependency */,
+			);
+			name = OpenGIFUITests;
+			productName = OpenGIFUITests;
+			productReference = FE9011161DE59C1300927CD2 /* OpenGIFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9010EA1DE59C1200927CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dn210;
+				TargetAttributes = {
+					FE9010F11DE59C1200927CD2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FE90110A1DE59C1200927CD2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE9010F11DE59C1200927CD2;
+					};
+					FE9011151DE59C1300927CD2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE9010F11DE59C1200927CD2;
+					};
+				};
+			};
+			buildConfigurationList = FE9010ED1DE59C1200927CD2 /* Build configuration list for PBXProject "OpenGIF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9010E91DE59C1200927CD2;
+			productRefGroup = FE9010F31DE59C1200927CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9010F11DE59C1200927CD2 /* OpenGIF */,
+				FE90110A1DE59C1200927CD2 /* OpenGIFTests */,
+				FE9011151DE59C1300927CD2 /* OpenGIFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9010F01DE59C1200927CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE737E511DEE9D4600BF7487 /* Info.plist in Resources */,
+				FE90112A1DE5A21000927CD2 /* splash.gif in Resources */,
+				FE9011021DE59C1200927CD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011091DE59C1200927CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011141DE59C1300927CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9010EE1DE59C1200927CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE737E591DEE9D4600BF7487 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FE90112E1DE5A35F00927CD2 /* FWGIFImageView.m in Sources */,
+				FE737E571DEE9D4600BF7487 /* MASViewConstraint.m in Sources */,
+				FE9010FD1DE59C1200927CD2 /* ViewController.m in Sources */,
+				FE9010FA1DE59C1200927CD2 /* AppDelegate.m in Sources */,
+				FE737E351DEE98CD00BF7487 /* BackView.m in Sources */,
+				FE737E5A1DEE9D4600BF7487 /* View+MASAdditions.m in Sources */,
+				FE737E521DEE9D4600BF7487 /* MASCompositeConstraint.m in Sources */,
+				FE737E561DEE9D4600BF7487 /* MASViewAttribute.m in Sources */,
+				FE737E541DEE9D4600BF7487 /* MASConstraintMaker.m in Sources */,
+				FE737E581DEE9D4600BF7487 /* NSArray+MASAdditions.m in Sources */,
+				FE737E5B1DEE9D4600BF7487 /* ViewController+MASAdditions.m in Sources */,
+				FE737E531DEE9D4600BF7487 /* MASConstraint.m in Sources */,
+				FE737E551DEE9D4600BF7487 /* MASLayoutConstraint.m in Sources */,
+				FE9010F71DE59C1200927CD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011071DE59C1200927CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9011101DE59C1200927CD2 /* OpenGIFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9011121DE59C1300927CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE90111B1DE59C1300927CD2 /* OpenGIFUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE90110D1DE59C1200927CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9010F11DE59C1200927CD2 /* OpenGIF */;
+			targetProxy = FE90110C1DE59C1200927CD2 /* PBXContainerItemProxy */;
+		};
+		FE9011181DE59C1300927CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9010F11DE59C1200927CD2 /* OpenGIF */;
+			targetProxy = FE9011171DE59C1300927CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE90111D1DE59C1300927CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE90111E1DE59C1300927CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9011201DE59C1300927CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenGIF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE9011211DE59C1300927CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenGIF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE9011231DE59C1300927CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGIF.app/OpenGIF";
+			};
+			name = Debug;
+		};
+		FE9011241DE59C1300927CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGIF.app/OpenGIF";
+			};
+			name = Release;
+		};
+		FE9011261DE59C1300927CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenGIFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenGIF;
+			};
+			name = Debug;
+		};
+		FE9011271DE59C1300927CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenGIFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Second.OpenGIFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenGIF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9010ED1DE59C1200927CD2 /* Build configuration list for PBXProject "OpenGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE90111D1DE59C1300927CD2 /* Debug */,
+				FE90111E1DE59C1300927CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE90111F1DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9011201DE59C1300927CD2 /* Debug */,
+				FE9011211DE59C1300927CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9011221DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9011231DE59C1300927CD2 /* Debug */,
+				FE9011241DE59C1300927CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9011251DE59C1300927CD2 /* Build configuration list for PBXNativeTarget "OpenGIFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9011261DE59C1300927CD2 /* Debug */,
+				FE9011271DE59C1300927CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9010EA1DE59C1200927CD2 /* Project object */;
+}

@@ -263,7 +263,27 @@
     
     if (_angle == M_PI *2)
     {
-        [_timer invalidate];
+        
+        _angle = 0;
+        
+        _angleInterval = 0.01;
+        
+        _preAngleInterval = 0.01;
+        
+        _maxNum = 0;
+        
+        
+        [NSThread sleepForTimeInterval:0.8];
+            
+        [self setNeedsDisplay];
+        
+        
+        
+       // [self setNeedsDisplay];
+        
+        //[_timer invalidate];
+        
+        //NSLog(@"动画完成");
         
         return;
     }
@@ -315,8 +335,6 @@
             
         }
     }
-    
-    //NSLog(@"%f",_angleInterval);
     
     
     
